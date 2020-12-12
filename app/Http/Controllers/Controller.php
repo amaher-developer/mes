@@ -5,12 +5,8 @@ namespace App\Http\Controllers;
 use App\Author;
 use App\Book;
 use App\Http\Requests\FileUploadRequest;
-use Carbon\Carbon;
-use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
-use Illuminate\Support\Facades\Mail;
 use Maatwebsite\Excel\Facades\Excel;
-use Symfony\Component\Console\Input\Input;
 
 class Controller extends BaseController
 {
@@ -23,8 +19,6 @@ class Controller extends BaseController
 
     public function upload(FileUploadRequest $request)
     {
-//        exec('php artisan queue:work --once  > /dev/null 2>&1 &');
-
         $filename = 'select_file';
         if($request->hasFile($filename))
         {
@@ -49,7 +43,7 @@ class Controller extends BaseController
         }
     }
 
-    private function mapBook($data)
+    public function mapBook($data)
     {
         $rows_output = [];
         if (count($data) > 0) {

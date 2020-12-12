@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Import Excel File in Laravel</title>
+    <title>Import Excel File in MES</title>
     <link rel="shortcut icon" href="https://mideastsoft.com/0.3/wp-content/uploads/2019/06/icon-color.png" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
