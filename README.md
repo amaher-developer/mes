@@ -24,13 +24,27 @@
 ## Resources
 
 - all resources allocate in "./uploads" folder:<br/>
-1- books.xlsx use to import file to system.
+1- books.xlsx use to import file to system.<br/>
 2- mail_result.jpg is a screenshot of mail result send to sender.
 
 ## Mail result
 
 <p align="center">
-<img src="./uploads/mail_result.jpg" style="height: 300px;" alt="Build Status">
+<img src="./uploads/mail_result.jpg" style="height: 300px;" >
+</p>
+
+## File Excel Upload
+
+<p align="center">
+<a href="./uploads/books.xlsx">
+Excel download in [./uploads/books.xlsx]
+</a>
+</p>
+
+## Web Page Result
+
+<p align="center">
+<img src="./uploads/import_excel_file_in_MES_localhost.png" style="height: 300px;" >
 </p>
 
 ## Tools
